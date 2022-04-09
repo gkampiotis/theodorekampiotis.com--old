@@ -279,18 +279,40 @@ li {
   }
 
   .intro-text {
-    font-size: 20px;
+    font-size: 16px;
     width: 90%;
   }
 
   .animating-object {
+    margin-top: 20vh;
     padding-top: 50px;
     padding-left: 15%;
+  }
 
+  .animating-object img {
+    max-width: 80%;
   }
 
   aside {
-    visibility: hidden;
+    width: 100vw;
+    height: 25vh;
+    padding-top: 5vh;
+    z-index: 1;
+    top: 1;
+    overflow-x:hidden;
+    background-color: #222222;
+  }
+
+  .profile-photo>img {
+    width: 80px;
+    height: 80px;
+    margin-left: 45%;
+  }
+
+  .sidebar ul {
+    text-align: center;
+    padding-top: 5px;
+    margin-left: 13%;
   }
 
 }
